@@ -4,8 +4,8 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, ContextTypes, MessageHandler, filters
 from openrouter import OpenRouter
 
-TELEGRAM_TOKEN = "8005347436:AAHqBxpYVJ6i2Y0NEQqlD3G5ffmULFaN_9M"
-OPENROUTER_KEY = "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"
+TELEGRAM_TOKEN = "8589814244:AAEX9cZ9wxJYwbo6m7GV0J-3b9M-eTX9B-M"
+OPENROUTER_KEY = "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"
 
 MODEL = "arcee-ai/trinity-large-preview:free"  # best for chat/pranks
 
@@ -52,4 +52,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
