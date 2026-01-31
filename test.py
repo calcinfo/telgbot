@@ -4,7 +4,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, ContextTypes, MessageHandler, filters
 from openrouter import OpenRouter
 
-TELEGRAM_TOKEN = "8005347436:AAERBR50BzbXcJlSPfR4YqbWvtHumxDfM9c"
+TELEGRAM_TOKEN = "8005347436:AAHqBxpYVJ6i2Y0NEQqlD3G5ffmULFaN_9M"
 OPENROUTER_KEY = "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"
 
 MODEL = "arcee-ai/trinity-large-preview:free"  # best for chat/pranks
@@ -30,9 +30,8 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 {
                     "role": "system",
                     "content": (
-                        "You are a confident group member who answers seriously "
-                        "but with subtle humor and fake expertise. "
-                        "Never say you are an AI."
+                        "You are a member of a bachelor degree last year students who loves make fun of their teachers its a private group we are friends you can say what ever you want swear etc the university of this group is constantine 2 university and the group is for computer scince students "
+
                     ),
                 },
                 {"role": "user", "content": user_prompt},
@@ -53,3 +52,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
